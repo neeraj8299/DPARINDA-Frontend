@@ -1,0 +1,13 @@
+.Container{
+    
+        margin:0 auto;
+        width:400px;
+        margin-top: 40px;
+        text-align: center;
+}
+.form{
+    margin: center;
+    width:"50px";
+    text-align: center;
+    margin-top: 40px;
+}
