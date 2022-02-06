@@ -1,11 +1,21 @@
 import React, { Component } from 'react'
-
-class ThirdPage extends Component {
-    render() {
+import { useHistory } from 'react-router';
+import EnterOtp from '../EnterOtp/EnterOtp'; 
+import Navbar from '../navbar';
+export default function ThirdPage() {
+    
+    let history = useHistory();
+   
+    
+    function handleClick4(){
+        history.push("/enterotp")
+    }
+        
         return (
             <> 
 
                   <div>
+                      <Navbar/>
                   <div class="container px-4">
   <div class="row gx-5">
     <div class="col">
@@ -15,13 +25,8 @@ class ThirdPage extends Component {
                        <div>
                        </div>
                       <input type='number' placeholder='Enter Phone NO'/> <br/> <br/>
-                      <button type="button" class="btn btn-info">GET OTP</button> <br/> <br/>
-                      <input type='number' placeholder='ENTER OTP'/>     <br/>   <br/>  
-                      <button type="button" class="btn btn-primary">VERIFY OTP</button> <br/> <br/>
-                      <input type='text' placeholder='ENTER NEW PASSWORD'/> <br/> <br/>
+                      <button type="button" class="btn btn-info" onClick={handleClick4} >GET OTP</button> <br/> <br/>
                        
-                      <input type='text' placeholder='CONFIRM NEW PASSWORD'/> <br/> <br/>
-                      <button type="button" class="btn btn-success">Save Changes</button>
                   </div>
               </div>
               </div>
@@ -33,6 +38,6 @@ class ThirdPage extends Component {
         )
         
     }
-}
 
-export default ThirdPage
+
+
