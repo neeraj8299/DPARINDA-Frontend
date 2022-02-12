@@ -88,15 +88,7 @@ function Categories() {
                 </div>
             </div> <br />
     </div>
-    <div class="col">
-    <div class="card"  >
-                <img src="" class="card-img-top" alt="DECORATIVE ITEMS" />
-                <div class="card-body">
-                    <h5 class="card-title">DECORATIVE ITEMS </h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary" onClick={handleClick01}>Click here!!</a>
-                </div>
-            </div> <br />
+    <br />
     </div>
   
   <div class="row">
@@ -120,15 +112,7 @@ function Categories() {
                 </div>
             </div> <br />
     </div>
-    <div class="col">
-      
-    <div class="card"  >
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">MORE..</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary" onClick={handleClick01}>Click here!!</a>
-                </div>
+    
             </div> <br />
 </div>
         </div>
@@ -139,9 +123,8 @@ function Categories() {
    </div>   
    </div>
    </div>
-   </div>
-   </div>  
-   </div>   
+  
+     
     )
 }
 

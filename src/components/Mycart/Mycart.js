@@ -8,12 +8,9 @@ function Mycart() {
      <Navbar/>
 
 
-
-
-
      <div class="container">
-  <div class="row">
-    <div class="col">
+  <div class="row justify-content-center">
+    <div class="col-4">
     <div class="vstack gap-3">
       <table class="table">
   <thead>
@@ -48,7 +45,7 @@ function Mycart() {
     <p class="card-text">product title.</p>
   </div>
 </div></th>
-      <td>Jacob</td>
+      <td>rate</td>
       <td>Thornton</td>
       <td>@fat</td>
     </tr>
@@ -59,19 +56,22 @@ function Mycart() {
     <p class="card-text">product title.</p>
   </div>
 </div></th>
-      <td colspan="2">Larry the Bird</td>
+      <td colspan="2"> rate</td>
       <td>@twitter</td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
       </div>
-        </div>
+        
+    <div class="col-4">
+      One of two columns
     </div>
-    <div class="col">
-      2 of 2
+
     </div>
-  </div>
-</div>
+    </div>
+    </div>
+   </div>
 
 
 

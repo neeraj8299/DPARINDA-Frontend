@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #062e7e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
 .nav-menu{
   margin-top: 4%;
   position: absolute;
-  max-width: 20%;
+  max-width: 60%;
 }
 
 .nav-search.search-bar{
@@ -66,3 +66,4 @@
   margin-top: -16%;
   margin-left: 9px;
 }
+ 

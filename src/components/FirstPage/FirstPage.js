@@ -24,7 +24,7 @@ function FirstPage  () {
         <div className="Container px-8" >
         <div class="row gx-8">
     <div class="col">
-    <div class="p-3 border bg-light">
+    <div   class="p-3 mb-2 bg-info text-dark">
             <br/>
             <h1> D-Parinda</h1><br/> 
                      <div class="card">
@@ -38,7 +38,7 @@ function FirstPage  () {
             <button type="button" class="btn btn-primary" onClick={handleclick2} >LOG IN</button> <br/>
              <br/>  <button type="button" class="btn btn-link" onClick={handleClick1}>forget password ?</button> <br/> 
              <p>Dont have an account? Click Below</p>
-            <button type="button" class="btn btn-info" onClick={handleClick}>Register here</button>
+            <button type="button" class="btn btn-info" On onClick={()=>this.login}>Register here</button>
             <br/>
             
   </div>

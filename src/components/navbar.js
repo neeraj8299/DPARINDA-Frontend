@@ -1,11 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import MyAccount from './LandingPage/myaccount'
+import Mycart from './Mycart/Mycart'
+import LandingPage from './LandingPage/LandingPage'
+import Categories from './Categories/Categories'
+import FirstPage from './FirstPage/FirstPage'
+import SecondPage from './SecondPage/SecondPage'
 function Navbar() {
     return (
     
             
 
-                <div>
+                <div className= "p-3 mb-2 bg-info text-dark">
                     
                     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top ">
                         <nav class="navbar navbar-dark bg-primary"></nav>
