@@ -9,7 +9,7 @@ function MyAccount(){
     }
     return(
         <div>
- <Navbar/>
+  
   <div>
       <br/> <br/>
 

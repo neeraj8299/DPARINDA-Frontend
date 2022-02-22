@@ -8,9 +8,7 @@ function Categories() {
         history.push("/grocerries")
     }
     return (
-
-        <div>
-            <Navbar/>
+ 
             <div class="card" class="card card-dark bg-warning">
   <div class="card-header" style={{alignContent: "center"}}>
    <h3 >CATEGORIES </h3>  
@@ -122,7 +120,7 @@ function Categories() {
    </div> 
    </div>   
    </div>
-   </div>
+    
   
      
     )

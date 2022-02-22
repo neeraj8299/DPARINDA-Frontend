@@ -14,8 +14,7 @@ export default function ThirdPage() {
         return (
             <> 
 
-                  <div>
-                      <Navbar/>
+                  
                   <div class="container px-4">
   <div class="row gx-5">
     <div class="col">
@@ -31,7 +30,7 @@ export default function ThirdPage() {
               </div>
               </div>
               </div>
-              </div>
+             
                   </>
         
             

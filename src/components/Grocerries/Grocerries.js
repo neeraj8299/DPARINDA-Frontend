@@ -10,7 +10,7 @@ function Grocerries(){
     return(
 <Router>  
 <> 
-<Navbar/>  
+   
 <div class="card">
   <div class="card-header">
     <h4>get fresh and healthy</h4>

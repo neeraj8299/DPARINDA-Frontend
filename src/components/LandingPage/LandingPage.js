@@ -16,10 +16,14 @@ import MyAccount from './myaccount';
     return (
 
    <>
-    <Navbar/>
+     
+ <div>  
+<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
 <br/> <br/>
-<div>
-
 <div class="col-sm-4 col-md-12">
     <div class="container">
         <div class="row">
@@ -180,7 +184,7 @@ import MyAccount from './myaccount';
         </div>
     </div>
 </div>
-</div>
+ 
  
 </>
 

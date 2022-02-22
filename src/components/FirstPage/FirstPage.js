@@ -20,7 +20,7 @@ function FirstPage  () {
 
         
         <>
-        <Navbar/>
+         
         <div className="Container px-8" >
         <div class="row gx-8">
     <div class="col">

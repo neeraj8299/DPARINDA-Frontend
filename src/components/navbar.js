@@ -22,12 +22,7 @@ function Navbar() {
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-
-                                <li class="nav-item">
+                           <li class="nav-item">
                                     <Link class="nav-link active" aria-current="page" to="/mycart">My Cart</Link>
                                 </li>
                                 <li class="nav-item">
@@ -39,10 +34,10 @@ function Navbar() {
                                 </li>
 
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="./first">Login</Link>
+                                    <Link class="nav-link active" to="./first">Login</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="/second">Register</Link>
+                                    <Link class="nav-link active" to="/second">Register</Link>
                                 </li>
 
                             </ul>

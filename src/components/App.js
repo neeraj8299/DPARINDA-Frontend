@@ -12,16 +12,20 @@ import Mycart from './Mycart/Mycart';
 import Categories from './Categories/Categories';
 import Grocerries from './Grocerries/Grocerries';
 import MyAccount from './LandingPage/myaccount';
- 
+import Footer from './Footer';
+import Navbar from './navbar';
 export class App  extends Component {
   
 render() { 
 
  return (
-    
-    <div  class="p-3 mb-2 bg-warning text-dark">
-       
+    <>
       <Router>
+
+    <Navbar/>
+    <div  class="p-3 mb-2 bg-danger text-dark">
+       
+     
         <Switch>
           <Route path="/" exact component={LandingPage} />
           <Route path="/first" exact component={FirstPage} />
@@ -37,9 +41,11 @@ render() {
           
           
         </Switch>
-      </Router>
+       
     </div>
- 
+    </Router> 
+  <br/> <br/> <div> <Footer/> </div>
+ </>
   )
  }
  
